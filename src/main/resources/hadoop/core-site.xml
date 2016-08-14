@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property>
+        <name>fs.default.name</name>
+        <value>hdfs://master:8020</value>
+    </property>
+
+    <property>
+        <name>hadoop.tmp.dir</name>
+        <value>file:/home/hzy/tmp/hadoop</value>
+    </property>
+
+    <property>
+        <name>io.sort.mb</name>
+        <value>256</value>
+    </property>
+
+    <property>
+        <name>io.file.buffer.size</name>
+        <value>131702</value>
+    </property>
+
+    <property>
+        <name>hadoop.proxyuser.spark.hosts</name>
+        <value>*</value>
+    </property>
+
+    <property>
+        <name>hadoop.proxyuser.spark.groups</name>
+        <value>*</value>
+    </property>
+
+    <property>
+        <name>hadoop.logfile.size</name>
+        <value>10000000</value>
+        <description>The max size of each log file</description>
+    </property>
+
+    <property>
+        <name>hadoop.logfile.count</name>
+        <value>10</value>
+        <description>The max number of log files</description>
+    </property>
+
+</configuration>

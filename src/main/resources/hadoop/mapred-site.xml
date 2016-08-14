@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+<!--   <property>
+        <name>mapreduce.output.fileoutputformat.compress</name>
+        <value>true</value>
+    </property>
+    <property>
+        <name>mapreduce.output.fileoutputformat.compress.codec</name>
+        <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+    </property>
+    <property>
+        <name>mapreduce.output.fileoutputformat.compress.type</name>
+        <value>RECORD</value>
+    </property>-->
+
+        <property>
+            <name>mapreduce.map.output.compress</name>
+            <value>true</value>
+        </property>
+
+        <property>
+            <name>mapreduce.map.output.compress.codec</name>
+            <value>org.apache.hadoop.io.compress.SnappyCodec</value>
+        </property>
+
+</configuration>
